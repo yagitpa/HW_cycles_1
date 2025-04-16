@@ -21,7 +21,7 @@ public class Main {
         // Выведите в консоль все четные числа от 0 до 17.
 
         System.out.println("Задача 3:");
-        for (int i = 0; i <= 17; i = i + 2) { // 0 является четным числом
+        for (int i = 0; i <= 17; i += 2) { // 0 является четным числом
             System.out.println(i);
         }
 
@@ -38,7 +38,7 @@ public class Main {
         // В консоль результат должен выводиться в формате: «… год является високосным».
 
         System.out.println("Задача 5:");
-        for (int i = 1904; i <= 2096; i = i + 4) {
+        for (int i = 1904; i <= 2096; i += 4) {
             System.out.println(i + " год является високосным");
         }
 
@@ -47,7 +47,7 @@ public class Main {
         // 7 14 21 28 35 42 49 56 63 70 77 84 91 98
 
         System.out.println("Задача 6:");
-        for (int i = 7; i <= 98; i = i + 7) {
+        for (int i = 7; i <= 98; i += 7) {
             System.out.println(i);
         }
 
@@ -56,7 +56,7 @@ public class Main {
         // 1 2 4 8 16 32 64 128 256 512
 
         System.out.println("Задача 7:");
-        for (int i = 1; i <= 512; i = i * 2) {
+        for (int i = 1; i <= 512; i *= 2) {
             System.out.println(i);
         }
 
