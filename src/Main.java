@@ -47,7 +47,7 @@ public class Main {
         // 7 14 21 28 35 42 49 56 63 70 77 84 91 98
 
         System.out.println("Задача 6:");
-        for (int i = 7; i <= 98; i= i +7) {
+        for (int i = 7; i <= 98; i = i + 7) {
             System.out.println(i);
         }
 
@@ -92,7 +92,7 @@ public class Main {
         System.out.println("Задача 10:");
         int number = 2;
         int multiplication = 0;
-        for (int i = 1; i <=10; i++){
+        for (int i = 1; i <= 10; i++) {
             multiplication = number * i;
             System.out.println(number + " * " + i + " = " + multiplication);
         }
